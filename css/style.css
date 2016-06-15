@@ -4,7 +4,7 @@
 	width: 960px;
 }
 
-.container .logo{
+.logo{
 	float: left;
 	padding: 21px 0px;
 }
@@ -191,8 +191,124 @@ nav ul li a{
 	width: 48px;
 }
 
-.tresColumnas{
-	width: 320px;
-	float: left;
-    padding: 100px 0px;
+#seccionDos{
+	position: relative;
 }
+
+.centrado{
+	text-align: center;
+	padding-top: 60px;
+}
+
+.cualidades h1{
+	font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cualidades h2{
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.tresColumnas {
+	width: 320px;
+	height: 450px;
+	float: left;	
+}
+
+.tresColumnas article{
+	overflow: auto;
+	padding-bottom: 30px;
+}
+
+.tresColumnas h3{
+	font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
+.tresColumnas.izquierda div{
+	width: 260px;
+    text-align: right;
+    float: left;
+}
+
+.tresColumnas.izquierda img{
+    float: right;
+}
+
+.tresColumnas.derecha div{
+	width: 260px;
+    text-align: left;
+    float: right;
+}
+
+.tresColumnas.derecha img{
+    float: left;
+}
+
+.tresColumnas.centrado.centro img{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -60px; 
+    margin: auto;
+}
+
+#seccionTres{
+    background-color: #fff;
+    background-image: url(../img/fondoSection3.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 50px; 
+}
+
+#seccionTres .cualidades.centrado{
+	padding-top: 125px;
+}
+
+.precios {
+	padding: 50px 0px;
+}
+
+.precios article{
+	width: 210px;
+	padding: 50px 15px 30px 15px;
+	margin: 15px;
+	background-color: #fff;
+	float: left;
+	flex: 1;
+	-webkit-box-shadow: -3px 3px 20px 0px rgba(204,204,204,0.7);
+	-moz-box-shadow: -3px 3px 20px 0px rgba(204,204,204,0.7);
+	box-shadow: -3px 3px 20px 0px rgba(204,204,204,0.7);
+}
+
+.precios li{
+	text-align: center;
+	display: block;
+}
+
+.uno{
+	color: #448AFF;
+}
+
+.dos{
+	color: #FFEB3B;
+}
+
+.tres{
+	color: #FF5722;
+}
+
+.cuatro{
+	color: #D32F2F;
+}
+
+#seccionCuatro{
+	background: #01579B;
+}
+
