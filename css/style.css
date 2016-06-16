@@ -176,7 +176,7 @@ nav ul li a{
 }
 
 .amarillo{
-	background-color: #FFEB3B;
+	background-color: #ffe802;
 }
 
 .naranja{
@@ -302,20 +302,73 @@ nav ul li a{
 	display: block;
 }
 
-.uno{
+.valor h5{
+	display: inline;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.producto{
+	padding: 15px 20px;
+    border-top: #8a8a8a 1px solid;
+}
+
+.producto li{
+	padding: 20px 0px;
+}
+
+.precios h4{
+	font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.precios h3{
+	display: inline;
+	float: left;
+}
+
+.valor{
+	padding-bottom: 50px;
+}
+
+.valor h6{
+	display: inline;
+	vertical-align: top;
+    font-weight: bold;
+}
+
+.valor p{
+	color: gray;
+}
+
+.underlined{
+	text-decoration: underline;
+}
+
+.producto .uno{
 	color: #448AFF;
+	float: right;
+	font-weight: bold;
 }
 
-.dos{
-	color: #FFEB3B;
+.producto .dos{
+	color: #ffe802;
+	float: right;
+	font-weight: bold;
 }
 
-.tres{
+
+.producto .tres{
 	color: #FF5722;
+	float: right;
+	font-weight: bold;
 }
 
-.cuatro{
+.producto .cuatro{
 	color: #D32F2F;
+	float: right;
+	font-weight: bold;
 }
 
 #seccionCuatro{
